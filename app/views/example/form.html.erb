@@ -7,11 +7,20 @@ example@form page
 </p>
 
 <p>
+  <%= f.label        :phone %>
+  <%= f.number_field :phone %>
+</p>
 
+<p>
+  <%= f.label      :hobby %>
+  <%= f.text_field :hobby %>
 </p>
 
 
-
+<p>
+  <%= f.label :poop %>
+  <%= f.text_field :poop %>
+</p>
 <% end %>
 
 <!-- <form class="new_job_application" id="new_job_application" action="/job_applications" accept-charset="UTF-8" method="post"> -->
