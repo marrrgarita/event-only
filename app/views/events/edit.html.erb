@@ -3,3 +3,5 @@
 </h1>
 
 <%= render 'event_form', event: @event %>
+
+<%= link_to "Back to #{@event.name}", event_path(@event) %>
