@@ -1,1 +1,15 @@
-events#index page
+<h1>Events</h1>
+
+<% @events.each do |event| %>
+
+<div class="event">
+
+<h3><%= event.name %></h3>
+<h4>Date: <%= event.date %><br>
+    City: <%= event.city %>
+</h4>
+<p>Capcity: <%= event.capacity %>
+</p>
+
+</div>
+<% end %>
